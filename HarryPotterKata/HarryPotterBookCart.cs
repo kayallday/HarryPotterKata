@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HarryPotterKata
 {
-    public class Class1
-    {
-    }
+	public class HarryPotterBookCart
+	{
+		public void Add()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

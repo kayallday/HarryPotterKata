@@ -8,9 +8,9 @@ namespace HarryPotterKata
 {
 	public class HarryPotterBookCart
 	{
-		public void Add()
+		public decimal Add()
 		{
-			throw new NotImplementedException();
+			return 0;
 		}
 	}
 }

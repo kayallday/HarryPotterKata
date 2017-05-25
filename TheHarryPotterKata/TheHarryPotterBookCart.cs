@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using HarryPotterKata;
 
 namespace TheHarryPotterKata
@@ -20,6 +19,7 @@ namespace TheHarryPotterKata
 		//	var total = shoppingCart.Add();
 		//	Assert.AreEqual(0, total);
 		//}
+		[Test]
 		public void Given0BooksTotalIsEqualTo0()
 		{
 			var shoppingCart = new HarryPotterBookCart();

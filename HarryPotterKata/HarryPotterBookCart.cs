@@ -12,5 +12,10 @@ namespace HarryPotterKata
 		{
 			return 0;
 		}
+
+		public decimal Add(string book1)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

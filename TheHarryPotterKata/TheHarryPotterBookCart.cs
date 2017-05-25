@@ -26,5 +26,13 @@ namespace TheHarryPotterKata
 			var total = shoppingCart.Add();
 			Assert.AreEqual(0, total);
 		}
+
+		[Test]
+		public void Given1BookThenTotalIsEqualTo8()
+		{
+			var shoppingCart = new HarryPotterBookCart();
+			var total = shoppingCart.Add("The Sorcerer's Stone");
+			Assert.AreEqual(8, total);
+		}
 	}
 }

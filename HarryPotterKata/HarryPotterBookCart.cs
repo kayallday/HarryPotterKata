@@ -8,14 +8,22 @@ namespace HarryPotterKata
 {
 	public class HarryPotterBookCart
 	{
+		List<HarryPotterBook> cart = new List<HarryPotterBook>();
 		public decimal Add()
 		{
+			
 			return 0;
 		}
 
-		public decimal Add(string book1)
+		public decimal Add(HarryPotterBook book)
 		{
-			return 8;
+			cart.Add(book);
+			return CalculateTotal();
+		}
+		
+		public decimal CalculateTotal()
+		{
+			var 
 		}
 	}
 }
